@@ -62,6 +62,17 @@ Building Kidsacademy Application Using Django Version 3.2
         new file:   templates/base.html
 
 
+### 4.3 HOME PAGE - Template inheritance (base template)
+
+        modified:   README.md
+        modified:   templates/base.html
+        new file:   templates/inc/footer.html
+        new file:   templates/inc/head.html
+        new file:   templates/inc/header.html
+        new file:   templates/inc/mobile_menu.html
+        new file:   templates/inc/scripts.html
+        new file:   templates/inc/subscribe.html
+
 
 
 
