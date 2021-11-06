@@ -36,7 +36,13 @@ Building Kidsacademy Application Using Django Version 3.2
         modified:   config/settings.py
 
 
+### 4. Create home page - TVUrls
 
+        modified:   README.md
+        new file:   apps/home/templates/home/index.html
+        new file:   apps/home/urls.py
+        modified:   apps/home/views.py
+        modified:   config/urls.py
 
 
 
