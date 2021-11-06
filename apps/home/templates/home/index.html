@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,47 +8,45 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 	<title>KidsAcademy</title>
-	<link href="images/favicon.png" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<link href="{% static 'assets/images/favicon.png' %}" rel="shortcut icon" type="image/vnd.microsoft.icon" />
 
 	<!-- Google fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link
-		href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
 	<!-- Bootstrap -->
-	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="{% static 'assets/css/bootstrap.min.css' %}" rel="stylesheet">
 
 	<!-- Font-awesome -->
-	<link href="assets/css/font-awesome.min.css" rel="stylesheet">
+	<link href="{% static 'assets/css/font-awesome.min.css' %}" rel="stylesheet">
 
 	<!-- Flaticon -->
-	<link href="assets/flaticon/flaticon.css" rel="stylesheet">
+	<link href="{% static 'assets/flaticon/flaticon.css' %}" rel="stylesheet">
 
 	<!-- lightcase -->
-	<link href="assets/css/lightcase.css" rel="stylesheet">
+	<link href="{% static 'assets/css/lightcase.css' %}" rel="stylesheet">
 
 	<!-- Swiper -->
-	<link href="assets/css/swiper.min.css" rel="stylesheet">
+	<link href="{% static 'assets/css/swiper.min.css' %}" rel="stylesheet">
 
 	<!-- quick-view -->
-	<link href="assets/css/quick-view.css" rel="stylesheet">
+	<link href="{% static 'assets/css/quick-view.css' %}" rel="stylesheet">
 
 	<!-- nstSlider -->
-	<link href="assets/css/jquery.nstSlider.css" rel="stylesheet">
+	<link href="{% static 'assets/css/jquery.nstSlider.css' %}" rel="stylesheet">
 
 	<!-- flexslider -->
-	<link href="assets/css/flexslider.css" rel="stylesheet">
+	<link href="{% static 'assets/css/flexslider.css' %}" rel="stylesheet">
 
 	<!-- Style -->
-	<link href="assets/css/rtl.css" rel="stylesheet">
+	<link href="{% static 'assets/css/rtl.css' %}" rel="stylesheet">
 
 	<!-- Style -->
-	<link href="assets/css/style.css" rel="stylesheet">
+	<link href="{% static 'assets/css/style.css' %}" rel="stylesheet">
 
 	<!-- Responsive -->
-	<link href="assets/css/responsive.css" rel="stylesheet">
+	<link href="{% static 'assets/css/responsive.css' %}" rel="stylesheet">
 </head>
 
 
@@ -65,7 +64,7 @@
 	<!-- mobile menu start here -->
 	<div class="mobile-menu-area">
 		<div class="logo-area">
-			<a class="logo" href="index.html"><img src="images/logo.png" alt="logo" class="img-responsive"></a>
+			<a class="logo" href="index.html"><img src="{% static 'assets/images/logo.png' %}" alt="logo" class="img-responsive"></a>
 			<button type="button" class="navbar-toggle collapsed d-md-none" data-toggle="collapse"
 				data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 				<span class="sr-only">Toggle navigation</span>
@@ -115,7 +114,7 @@
 	</div>
 	<!-- mobile menu ending here -->
 
-
+	<!-- header here -->
 	<header>
 		<div class="header-top">
 			<div class="container">
@@ -145,7 +144,7 @@
 				<div class="row no-gutters">
 					<nav class="main-menu-area w-100">
 						<div class="logo-area">
-							<a class="" href="index.html"><img src="images/logo.png" alt="logo"
+							<a class="" href="index.html"><img src="{% static 'assets/images/logo.png' %}" alt="logo"
 									class="img-responsive"></a>
 							<button type="button" class="navbar-toggle collapsed d-md-none" data-toggle="collapse"
 								data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -165,7 +164,7 @@
 									<ul class="dropdown-menu first_dropdown shop_feature">
 										<li class="feature_item">
 											<div class="featured_image">
-												<img src="images/product/menu_cart_01.jpg" alt="Fratured image"
+												<img src="{% static 'assets/images/product/menu_cart_01.jpg' %}" alt="Fratured image"
 													class="img-responsive" />
 											</div>
 											<!--featured image-->
@@ -180,7 +179,7 @@
 										</li><!--  feature item -->
 										<li class="feature_item">
 											<div class="featured_image">
-												<img src="images/product/menu_cart_02.jpg" alt="Fratured image"
+												<img src="{% static 'assets/images/product/menu_cart_02.jpg' %}" alt="Fratured image"
 													class="img-responsive" />
 											</div>
 											<!--featured image-->
@@ -195,7 +194,7 @@
 										</li><!--  feature item -->
 										<li class="feature_item">
 											<div class="featured_image">
-												<img src="images/product/menu_cart_03.jpg" alt="Fratured image"
+												<img src="{% static 'assets/images/product/menu_cart_03.jpg' %}" alt="Fratured image"
 													class="img-responsive" />
 											</div>
 											<!--featured image-->
@@ -376,7 +375,7 @@
 				<div class="row">
 					<div class="col-lg-6">
 						<div class="about-image">
-							<img src="images/about/about.png" alt="about image" class="img-responsive">
+							<img src="{% static 'assets/images/about/about.png' %}" alt="about image" class="img-responsive">
 						</div>
 					</div>
 					<div class="col-lg-6">
@@ -413,7 +412,7 @@
 				<div class="col-lg-4 col-sm-6 col-xs-12">
 					<div class="class-item">
 						<div class="image">
-							<img src="images/classes/class_01.jpg" alt="class image" class="img-responsive">
+							<img src="{% static 'assets/images/classes/class_01.jpg' %}" alt="class image" class="img-responsive">
 						</div>
 						<ul class="schedule">
 							<li>
@@ -443,7 +442,7 @@
 				<div class="col-lg-4 col-sm-6 col-xs-12">
 					<div class="class-item">
 						<div class="image">
-							<img src="images/classes/class_02.jpg" alt="class image" class="img-responsive">
+							<img src="{% static 'assets/images/classes/class_02.jpg' %}" alt="class image" class="img-responsive">
 						</div>
 						<ul class="schedule">
 							<li>
@@ -473,7 +472,7 @@
 				<div class="col-lg-4 col-sm-6 col-xs-12">
 					<div class="class-item">
 						<div class="image">
-							<img src="images/classes/class_03.jpg" alt="class image" class="img-responsive">
+							<img src="{% static 'assets/images/classes/class_03.jpg' %}" alt="class image" class="img-responsive">
 						</div>
 						<ul class="schedule">
 							<li>
@@ -522,7 +521,7 @@
 					<div class="col-lg-6 col-xs-12">
 						<div class="teacher-item">
 							<div class="teacher-image">
-								<img src="images/teachers/teacher_01.jpg" alt="teacher image" class="img-responsive">
+								<img src="{% static 'assets/images/teachers/teacher_01.jpg' %}" alt="teacher image" class="img-responsive">
 							</div>
 							<div class="teacher-content">
 								<h4>Broklyn Doel <span>Sains Teacher</span></h4>
@@ -542,7 +541,7 @@
 					<div class="col-lg-6 col-xs-12">
 						<div class="teacher-item">
 							<div class="teacher-image">
-								<img src="images/teachers/teacher_02.jpg" alt="teacher image" class="img-responsive">
+								<img src="{% static 'assets/images/teachers/teacher_02.jpg' %}" alt="teacher image" class="img-responsive">
 							</div>
 							<div class="teacher-content">
 								<h4>Alex Jhonson <span>Art Teacher</span></h4>
@@ -562,7 +561,7 @@
 					<div class="col-lg-6 col-xs-12">
 						<div class="teacher-item">
 							<div class="teacher-image">
-								<img src="images/teachers/teacher_03.jpg" alt="teacher image" class="img-responsive">
+								<img src="{% static 'assets/images/teachers/teacher_03.jpg' %}" alt="teacher image" class="img-responsive">
 							</div>
 							<div class="teacher-content">
 								<h4>Robot Jhonson <span>Math Teacher</span></h4>
@@ -582,7 +581,7 @@
 					<div class="col-lg-6 col-xs-12">
 						<div class="teacher-item">
 							<div class="teacher-image">
-								<img src="images/teachers/teacher_04.jpg" alt="teacher image" class="img-responsive">
+								<img src="{% static 'assets/images/teachers/teacher_04.jpg' %}" alt="teacher image" class="img-responsive">
 							</div>
 							<div class="teacher-content">
 								<h4>Janaton Doe <span>English Teacher</span></h4>
@@ -625,12 +624,12 @@
 			<div class="gallery-items">
 				<div class="gallery-item branding packing">
 					<div class="gallery-image">
-						<img src="images/gallery/gallery_01.jpg" alt="gallery image" class="img-responsive">
+						<img src="{% static 'assets/images/gallery/gallery_01.jpg' %}" alt="gallery image" class="img-responsive">
 						<div class="gallery-overlay">
 							<div class="bg"></div>
 						</div>
 						<div class="gallery-content">
-							<a href="images/gallery/gallery_bg_01.jpg" data-rel="lightcase:myCollection"><i
+							<a href="{% static 'assets/images/gallery/gallery_bg_01.jpg' %}" data-rel="lightcase:myCollection"><i
 									class="icon flaticon-expand"></i></a>
 							<h4>Product Name Here</h4>
 							<span>By: KidsAcademy Theme</span>
@@ -639,12 +638,12 @@
 				</div><!-- gallery item -->
 				<div class="gallery-item development photography">
 					<div class="gallery-image">
-						<img src="images/gallery/gallery_02.jpg" alt="gallery image" class="img-responsive">
+						<img src="{% static 'assets/images/gallery/gallery_02.jpg' %}" alt="gallery image" class="img-responsive">
 						<div class="gallery-overlay">
 							<div class="bg"></div>
 						</div>
 						<div class="gallery-content">
-							<a href="images/gallery/gallery_bg_02.jpg" data-rel="lightcase:myCollection"><i
+							<a href="{% static 'assets/images/gallery/gallery_bg_02.jpg' %}" data-rel="lightcase:myCollection"><i
 									class="icon flaticon-expand"></i></a>
 							<h4>Product Name Here</h4>
 							<span>By: KidsAcademy Theme</span>
@@ -653,12 +652,12 @@
 				</div><!-- gallery item -->
 				<div class="gallery-item branding packing">
 					<div class="gallery-image">
-						<img src="images/gallery/gallery_03.jpg" alt="gallery image" class="img-responsive">
+						<img src="{% static 'assets/images/gallery/gallery_03.jpg' %}" alt="gallery image" class="img-responsive">
 						<div class="gallery-overlay">
 							<div class="bg"></div>
 						</div>
 						<div class="gallery-content">
-							<a href="images/gallery/gallery_bg_03.jpg" data-rel="lightcase:myCollection"><i
+							<a href="{% static 'assets/images/gallery/gallery_bg_03.jpg' %}" data-rel="lightcase:myCollection"><i
 									class="icon flaticon-expand"></i></a>
 							<h4>Product Name Here</h4>
 							<span>By: KidsAcademy Theme</span>
@@ -667,12 +666,12 @@
 				</div><!-- gallery item -->
 				<div class="gallery-item development photography">
 					<div class="gallery-image">
-						<img src="images/gallery/gallery_04.jpg" alt="gallery image" class="img-responsive">
+						<img src="{% static 'assets/images/gallery/gallery_04.jpg' %}" alt="gallery image" class="img-responsive">
 						<div class="gallery-overlay">
 							<div class="bg"></div>
 						</div>
 						<div class="gallery-content">
-							<a href="images/gallery/gallery_bg_04.jpg" data-rel="lightcase:myCollection"><i
+							<a href="{% static 'assets/images/gallery/gallery_bg_04.jpg' %}" data-rel="lightcase:myCollection"><i
 									class="icon flaticon-expand"></i></a>
 							<h4>Product Name Here</h4>
 							<span>By: KidsAcademy Theme</span>
@@ -681,12 +680,12 @@
 				</div><!-- gallery item -->
 				<div class="gallery-item branding packing">
 					<div class="gallery-image">
-						<img src="images/gallery/gallery_05.jpg" alt="gallery image" class="img-responsive">
+						<img src="{% static 'assets/images/gallery/gallery_05.jpg' %}" alt="gallery image" class="img-responsive">
 						<div class="gallery-overlay">
 							<div class="bg"></div>
 						</div>
 						<div class="gallery-content">
-							<a href="images/gallery/gallery_bg_05.jpg" data-rel="lightcase:myCollection"><i
+							<a href="{% static 'assets/images/gallery/gallery_bg_05.jpg' %}" data-rel="lightcase:myCollection"><i
 									class="icon flaticon-expand"></i></a>
 							<h4>Product Name Here</h4>
 							<span>By: KidsAcademy Theme</span>
@@ -695,12 +694,12 @@
 				</div><!-- gallery item -->
 				<div class="gallery-item branding packing">
 					<div class="gallery-image">
-						<img src="images/gallery/gallery_06.jpg" alt="gallery image" class="img-responsive">
+						<img src="{% static 'assets/images/gallery/gallery_06.jpg' %}" alt="gallery image" class="img-responsive">
 						<div class="gallery-overlay">
 							<div class="bg"></div>
 						</div>
 						<div class="gallery-content">
-							<a href="images/gallery/gallery_bg_06.jpg" data-rel="lightcase:myCollection"><i
+							<a href="{% static 'assets/images/gallery/gallery_bg_06.jpg' %}" data-rel="lightcase:myCollection"><i
 									class="icon flaticon-expand"></i></a>
 							<h4>Product Name Here</h4>
 							<span>By: KidsAcademy Theme</span>
@@ -770,11 +769,11 @@
 								<p>Professionally predominate that timely infrastriuctures tops line methodlogies
 									Colaboratively seize scalable achannels before longterm high impact</p>
 								<h4>Joly Smith <span>ui/ux Designer</span></h4>
-								<img src="images/testimonial/testimonial_icon_01.jpg" alt="testimonial icon"
+								<img src="{% static 'assets/images/testimonial/testimonial_icon_01.jpg' %}" alt="testimonial icon"
 									class="img-responsive">
 							</div>
 							<div class="testimonial-image">
-								<img src="images/testimonial/testimonial_01.jpg" alt="client image"
+								<img src="{% static 'assets/images/testimonial/testimonial_01.jpg' %}" alt="client image"
 									class="img-responsive">
 							</div>
 						</div><!-- testimonial-item -->
@@ -783,11 +782,11 @@
 								<p>Professionally predominate that timely infrastriuctures tops line methodlogies
 									Colaboratively seize scalable achannels before longterm high impact</p>
 								<h4>Joly Smith <span>ui/ux Designer</span></h4>
-								<img src="images/testimonial/testimonial_icon_02.jpg" alt="testimonial icon"
+								<img src="{% static 'assets/images/testimonial/testimonial_icon_02.jpg' %}" alt="testimonial icon"
 									class="img-responsive">
 							</div>
 							<div class="testimonial-image">
-								<img src="images/testimonial/testimonial_02.jpg" alt="client image"
+								<img src="{% static 'assets/images/testimonial/testimonial_02.jpg' %}" alt="client image"
 									class="img-responsive">
 							</div>
 						</div><!-- testimonial-item -->
@@ -796,11 +795,11 @@
 								<p>Professionally predominate that timely infrastriuctures tops line methodlogies
 									Colaboratively seize scalable achannels before longterm high impact</p>
 								<h4>Joly Smith <span>ui/ux Designer</span></h4>
-								<img src="images/testimonial/testimonial_icon_03.jpg" alt="testimonial icon"
+								<img src="{% static 'assets/images/testimonial/testimonial_icon_03.jpg' %}" alt="testimonial icon"
 									class="img-responsive">
 							</div>
 							<div class="testimonial-image">
-								<img src="images/testimonial/testimonial_03.jpg" alt="client image"
+								<img src="{% static 'assets/images/testimonial/testimonial_03.jpg' %}" alt="client image"
 									class="img-responsive">
 							</div>
 						</div><!-- testimonial-item -->
@@ -809,11 +808,11 @@
 								<p>Professionally predominate that timely infrastriuctures tops line methodlogies
 									Colaboratively seize scalable achannels before longterm high impact</p>
 								<h4>Joly Smith <span>ui/ux Designer</span></h4>
-								<img src="images/testimonial/testimonial_icon_01.jpg" alt="testimonial icon"
+								<img src="{% static 'assets/images/testimonial/testimonial_icon_01.jpg' %}" alt="testimonial icon"
 									class="img-responsive">
 							</div>
 							<div class="testimonial-image">
-								<img src="images/testimonial/testimonial_01.jpg" alt="client image"
+								<img src="{% static 'assets/images/testimonial/testimonial_01.jpg' %}" alt="client image"
 									class="img-responsive">
 							</div>
 						</div><!-- testimonial-item -->
@@ -822,11 +821,11 @@
 								<p>Professionally predominate that timely infrastriuctures tops line methodlogies
 									Colaboratively seize scalable achannels before longterm high impact</p>
 								<h4>Joly Smith <span>ui/ux Designer</span></h4>
-								<img src="images/testimonial/testimonial_icon_02.jpg" alt="testimonial icon"
+								<img src="{% static 'assets/images/testimonial/testimonial_icon_02.jpg' %}" alt="testimonial icon"
 									class="img-responsive">
 							</div>
 							<div class="testimonial-image">
-								<img src="images/testimonial/testimonial_02.jpg" alt="client image"
+								<img src="{% static 'assets/images/testimonial/testimonial_02.jpg' %}" alt="client image"
 									class="img-responsive">
 							</div>
 						</div><!-- testimonial-item -->
@@ -835,11 +834,11 @@
 								<p>Professionally predominate that timely infrastriuctures tops line methodlogies
 									Colaboratively seize scalable achannels before longterm high impact</p>
 								<h4>Joly Smith <span>ui/ux Designer</span></h4>
-								<img src="images/testimonial/testimonial_icon_03.jpg" alt="testimonial icon"
+								<img src="{% static 'assets/images/testimonial/testimonial_icon_03.jpg' %}" alt="testimonial icon"
 									class="img-responsive">
 							</div>
 							<div class="testimonial-image">
-								<img src="images/testimonial/testimonial_03.jpg" alt="client image"
+								<img src="{% static 'assets/images/testimonial/testimonial_03.jpg' %}" alt="client image"
 									class="img-responsive">
 							</div>
 						</div><!-- testimonial-item -->
@@ -865,34 +864,34 @@
 					<div class="partner-slider swiper-container">
 						<div class="swiper-wrapper">
 							<div class="partner-item swiper-slide">
-								<img src="images/partner/partner_01.jpg" alt="partner image" class="img-responsive">
+								<img src="{% static 'assets/images/partner/partner_01.jpg' %}" alt="partner image" class="img-responsive">
 							</div><!-- partner-item -->
 							<div class="partner-item swiper-slide">
-								<img src="images/partner/partner_02.jpg" alt="partner image" class="img-responsive">
+								<img src="{% static 'assets/images/partner/partner_02.jpg' %}" alt="partner image" class="img-responsive">
 							</div><!-- partner-item -->
 							<div class="partner-item swiper-slide">
-								<img src="images/partner/partner_03.jpg" alt="partner image" class="img-responsive">
+								<img src="{% static 'assets/images/partner/partner_03.jpg' %}" alt="partner image" class="img-responsive">
 							</div><!-- partner-item -->
 							<div class="partner-item swiper-slide">
-								<img src="images/partner/partner_04.jpg" alt="partner image" class="img-responsive">
+								<img src="{% static 'assets/images/partner/partner_04.jpg' %}" alt="partner image" class="img-responsive">
 							</div><!-- partner-item -->
 							<div class="partner-item swiper-slide">
-								<img src="images/partner/partner_05.jpg" alt="partner image" class="img-responsive">
+								<img src="{% static 'assets/images/partner/partner_05.jpg' %}" alt="partner image" class="img-responsive">
 							</div><!-- partner-item -->
 							<div class="partner-item swiper-slide">
-								<img src="images/partner/partner_01.jpg" alt="partner image" class="img-responsive">
+								<img src="{% static 'assets/images/partner/partner_01.jpg' %}" alt="partner image" class="img-responsive">
 							</div><!-- partner-item -->
 							<div class="partner-item swiper-slide">
-								<img src="images/partner/partner_02.jpg" alt="partner image" class="img-responsive">
+								<img src="{% static 'assets/images/partner/partner_02.jpg' %}" alt="partner image" class="img-responsive">
 							</div><!-- partner-item -->
 							<div class="partner-item swiper-slide">
-								<img src="images/partner/partner_03.jpg" alt="partner image" class="img-responsive">
+								<img src="{% static 'assets/images/partner/partner_03.jpg' %}" alt="partner image" class="img-responsive">
 							</div><!-- partner-item -->
 							<div class="partner-item swiper-slide">
-								<img src="images/partner/partner_04.jpg" alt="partner image" class="img-responsive">
+								<img src="{% static 'assets/images/partner/partner_04.jpg' %}" alt="partner image" class="img-responsive">
 							</div><!-- partner-item -->
 							<div class="partner-item swiper-slide">
-								<img src="images/partner/partner_05.jpg" alt="partner image" class="img-responsive">
+								<img src="{% static 'assets/images/partner/partner_05.jpg' %}" alt="partner image" class="img-responsive">
 							</div><!-- partner-item -->
 
 						</div><!-- swiper-wrapper -->
@@ -915,7 +914,7 @@
 			<div class="event-items">
 				<div class="event-item wide">
 					<div class="event-image">
-						<img src="images/event/event_01.jpg" alt="event image" class="img-responsive">
+						<img src="{% static 'assets/images/event/event_01.jpg' %}" alt="event image" class="img-responsive">
 						<div class="date">
 							<span>24</span>
 							<p>March</p>
@@ -935,7 +934,7 @@
 				</div>
 				<div class="event-item">
 					<div class="event-image">
-						<img src="images/event/event_02.jpg" alt="event image" class="img-responsive">
+						<img src="{% static 'assets/images/event/event_02.jpg' %}" alt="event image" class="img-responsive">
 						<div class="date">
 							<span>24</span>
 							<p>March</p>
@@ -955,7 +954,7 @@
 				</div>
 				<div class="event-item wide right">
 					<div class="event-image">
-						<img src="images/event/event_03.jpg" alt="event image" class="img-responsive">
+						<img src="{% static 'assets/images/event/event_03.jpg' %}" alt="event image" class="img-responsive">
 						<div class="date">
 							<span>24</span>
 							<p>March</p>
@@ -1005,7 +1004,7 @@
 				<div class="row">
 					<div class="col-lg-3 col-md-6 col-xs-12">
 						<div class="footer-item">
-							<div class="title"><img src="images/logo.png" alt="logo" class="img-responsive"></div>
+							<div class="title"><img src="{% static 'assets/images/logo.png' %}" alt="logo" class="img-responsive"></div>
 							<div class="footer-about">
 								<p>Distily enable team driven services through extensive is a relatonships platforms
 									with interactive content. Enthusiastically scale effective.</p>
@@ -1028,7 +1027,7 @@
 							<ul class="footer-post">
 								<li>
 									<div class="image">
-										<a href="single.html"><img src="images/blog/footer_post_01.jpg" alt="post image"
+										<a href="single.html"><img src="{% static 'assets/images/blog/footer_post_01.jpg' %}" alt="post image"
 												class="img-responsive"></a>
 									</div>
 									<div class="content">
@@ -1038,7 +1037,7 @@
 								</li>
 								<li>
 									<div class="image">
-										<a href="single.html"><img src="images/blog/footer_post_02.jpg" alt="post image"
+										<a href="single.html"><img src="{% static 'assets/images/blog/footer_post_02.jpg' %}" alt="post image"
 												class="img-responsive"></a>
 									</div>
 									<div class="content">
@@ -1048,7 +1047,7 @@
 								</li>
 								<li>
 									<div class="image">
-										<a href="single.html"><img src="images/blog/footer_post_03.jpg" alt="post image"
+										<a href="single.html"><img src="{% static 'assets/images/blog/footer_post_03.jpg' %}" alt="post image"
 												class="img-responsive"></a>
 									</div>
 									<div class="content">
@@ -1091,23 +1090,23 @@
 						<div class="footer-item">
 							<h4 class="title">Recent Photos</h4>
 							<ul class="photos">
-								<li><a href="#"><img src="images/sidebar/gallery_01.jpg" alt="gallery image"
+								<li><a href="#"><img src="{% static 'assets/images/sidebar/gallery_01.jpg' %}" alt="gallery image"
 											class="img-responsive"></a></li>
-								<li><a href="#"><img src="images/sidebar/gallery_02.jpg" alt="gallery image"
+								<li><a href="#"><img src="{% static 'assets/images/sidebar/gallery_02.jpg' %}" alt="gallery image"
 											class="img-responsive"></a></li>
-								<li><a href="#"><img src="images/sidebar/gallery_03.jpg" alt="gallery image"
+								<li><a href="#"><img src="{% static 'assets/images/sidebar/gallery_03.jpg' %}" alt="gallery image"
 											class="img-responsive"></a></li>
-								<li><a href="#"><img src="images/sidebar/gallery_04.jpg" alt="gallery image"
+								<li><a href="#"><img src="{% static 'assets/images/sidebar/gallery_04.jpg' %}" alt="gallery image"
 											class="img-responsive"></a></li>
-								<li><a href="#"><img src="images/sidebar/gallery_05.jpg" alt="gallery image"
+								<li><a href="#"><img src="{% static 'assets/images/sidebar/gallery_05.jpg' %}" alt="gallery image"
 											class="img-responsive"></a></li>
-								<li><a href="#"><img src="images/sidebar/gallery_06.jpg" alt="gallery image"
+								<li><a href="#"><img src="{% static 'assets/images/sidebar/gallery_06.jpg' %}" alt="gallery image"
 											class="img-responsive"></a></li>
-								<li><a href="#"><img src="images/sidebar/gallery_07.jpg" alt="gallery image"
+								<li><a href="#"><img src="{% static 'assets/images/sidebar/gallery_07.jpg' %}" alt="gallery image"
 											class="img-responsive"></a></li>
-								<li><a href="#"><img src="images/sidebar/gallery_08.jpg" alt="gallery image"
+								<li><a href="#"><img src="{% static 'assets/images/sidebar/gallery_08.jpg' %}" alt="gallery image"
 											class="img-responsive"></a></li>
-								<li><a href="#"><img src="images/sidebar/gallery_09.jpg" alt="gallery image"
+								<li><a href="#"><img src="{% static 'assets/images/sidebar/gallery_09.jpg' %}" alt="gallery image"
 											class="img-responsive"></a></li>
 							</ul>
 						</div>
@@ -1139,47 +1138,47 @@
 
 
 	<!-- jquery -->
-	<script src="assets/js/jquery-1.12.4.min.js"></script>
+	<script src="{% static 'assets/js/jquery-1.12.4.min.js' %}"></script>
 
 	<!-- Bootstrap -->
-	<script src="assets/js/bootstrap.bundle.min.js"></script>
+	<script src="{% static 'assets/js/bootstrap.bundle.min.js' %}"></script>
 
 	<!-- Isotope -->
-	<script src="assets/js/isotope.min.js"></script>
+	<script src="{% static 'assets/js/isotope.min.js' %}"></script>
 
 	<!-- lightcase -->
-	<script src="assets/js/lightcase.js"></script>
+	<script src="{% static 'assets/js/lightcase.js' %}"></script>
 
 	<!-- counterup -->
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-	<script src="assets/js/jquery.counterup.min.js"></script>
+	<script src="{% static 'assets/js/jquery.counterup.min.js' %}"></script>
 
 	<!-- Swiper -->
-	<script src="assets/js/swiper.jquery.min.js"></script>
+	<script src="{% static 'assets/js/swiper.jquery.min.js' %}"></script>
 
 	<!--progress-->
-	<script src="assets/js/circle-progress.min.js"></script>
+	<script src="{% static 'assets/js/circle-progress.min.js' %}"></script>
 
 	<!--velocity-->
-	<script src="assets/js/velocity.min.js"></script>
+	<script src="{% static 'assets/js/velocity.min.js' %}"></script>
 
 	<!--quick-view-->
-	<script src="assets/js/quick-view.js"></script>
+	<script src="{% static 'assets/js/quick-view.js' %}"></script>
 
 	<!--nstSlider-->
-	<script src="assets/js/jquery.nstSlider.js"></script>
+	<script src="{% static 'assets/js/jquery.nstSlider.js' %}"></script>
 
 	<!--flexslider-->
-	<script src="assets/js/flexslider-min.js"></script>
+	<script src="{% static 'assets/js/flexslider-min.js' %}"></script>
 
 	<!--easing-->
-	<script src="assets/js/jquery.easing.min.js"></script>
+	<script src="{% static 'assets/js/jquery.easing.min.js' %}"></script>
 
 	<!--coundown-->
-	<script src="assets/js/coundown.js"></script>
+	<script src="{% static 'assets/js/coundown.js' %}"></script>
 
 	<!-- custom -->
-	<script src="assets/js/custom.js"></script>
+	<script src="{% static 'assets/js/custom.js' %}"></script>
 </body>
 
 </html>

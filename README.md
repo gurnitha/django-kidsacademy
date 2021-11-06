@@ -36,7 +36,7 @@ Building Kidsacademy Application Using Django Version 3.2
         modified:   config/settings.py
 
 
-### 4. Create home page - TVUrls
+### 4. HOME PAGE - Create home page - TVUrls
 
         modified:   README.md
         new file:   apps/home/templates/home/index.html
@@ -45,7 +45,13 @@ Building Kidsacademy Application Using Django Version 3.2
         modified:   config/urls.py
 
 
+### 4.1 HOME PAGE - Adding and load static files
 
+        modified:   README.md
+        modified:   apps/home/templates/home/index.html
+        modified:   config/settings.py
+        ..
+        new file:   static/assets/js/velocity.min.js
 
 
 
