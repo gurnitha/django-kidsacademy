@@ -13,8 +13,14 @@ Building Kidsacademy Application Using Django Version 3.2
 * [Github repo](https://github.com/gurnitha/django-kidsacademy)
 
 
+### 3. Create django project 'config'
 
-
+        new file:   config/__init__.py
+        new file:   config/asgi.py
+        new file:   config/settings.py
+        new file:   config/urls.py
+        new file:   config/wsgi.py
+        new file:   manage.py
 
 
 
