@@ -23,6 +23,18 @@ Building Kidsacademy Application Using Django Version 3.2
         new file:   manage.py
 
 
+### 4. Create django app 'apps/home' and register to the project
+
+        modified:   README.md
+        new file:   apps/home/__init__.py
+        new file:   apps/home/admin.py
+        new file:   apps/home/apps.py
+        new file:   apps/home/migrations/__init__.py
+        new file:   apps/home/models.py
+        new file:   apps/home/tests.py
+        new file:   apps/home/views.py
+        modified:   config/settings.py
+
 
 
 
