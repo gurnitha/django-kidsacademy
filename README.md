@@ -54,6 +54,13 @@ Building Kidsacademy Application Using Django Version 3.2
         new file:   static/assets/js/velocity.min.js
 
 
+### 4.2 HOME PAGE - Create base template
+
+        modified:   README.md
+        modified:   apps/home/templates/home/index.html
+        modified:   config/settings.py
+        new file:   templates/base.html
+
 
 
 
